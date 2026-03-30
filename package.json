@@ -1,0 +1,20 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio HTML template",
+  "scripts": {
+    "lint": "eslint 'js/**/*.js'",
+    "lint:fix": "eslint 'js/**/*.js' --fix",
+    "format": "prettier --check 'js/**/*.js' 'tests/**/*.js' 'css/style.css' '*.json' '*.md'",
+    "format:fix": "prettier --write 'js/**/*.js' 'tests/**/*.js' 'css/style.css' '*.json' '*.md'",
+    "test": "jest",
+    "test:ci": "jest --ci --coverage"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

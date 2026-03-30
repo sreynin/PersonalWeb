@@ -14,12 +14,14 @@ Desktop.ini
 *.swo
 *~
 
-# Node.js (if added later)
+# Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
+
+# Test coverage
+coverage/
 
 # Environment files
 .env
@@ -35,3 +37,4 @@ build/
 
 # Deployment guide (not needed on live site)
 DEPLOYMENT-GUIDE.md
+.vercel
